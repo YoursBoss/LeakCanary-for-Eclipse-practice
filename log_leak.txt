@@ -1,0 +1,128 @@
+11-28 17:42:03.414: D/LeakCanary(20321): In com.example.leakcanary:null:0.
+11-28 17:42:03.415: D/LeakCanary(20321): * com.example.leakcanary.MainActivity has leaked:
+11-28 17:42:03.415: D/LeakCanary(20321): * GC ROOT thread java.lang.Thread.<Java Local> (named 'AsyncTask #4')
+11-28 17:42:03.415: D/LeakCanary(20321): * references com.example.leakcanary.MainActivity$2.this$0 (anonymous subclass of android.os.AsyncTask)
+11-28 17:42:03.415: D/LeakCanary(20321): * leaks com.example.leakcanary.MainActivity instance
+11-28 17:42:03.415: D/LeakCanary(20321): * Retaining: 26 KB.
+11-28 17:42:03.415: D/LeakCanary(20321): * Reference Key: fd1d64aa-c913-4705-abf1-fe844509c872
+11-28 17:42:03.415: D/LeakCanary(20321): * Device: Xiaomi Xiaomi MI 3C cancro
+11-28 17:42:03.415: D/LeakCanary(20321): * Android Version: 6.0.1 API: 23 LeakCanary: 4.0+ git_sha
+11-28 17:42:03.415: D/LeakCanary(20321): * Durations: watch=5089ms, gc=148ms, heap dump=5844ms, analysis=25566ms
+11-28 17:42:03.415: D/LeakCanary(20321): * Details:
+11-28 17:42:03.415: D/LeakCanary(20321): * Instance of java.lang.Thread
+11-28 17:42:03.415: D/LeakCanary(20321): |   static NANOS_PER_MILLI = 1000000
+11-28 17:42:03.415: D/LeakCanary(20321): |   static defaultUncaughtHandler = com.android.internal.os.RuntimeInit$UncaughtHandler@851448528 (0x32c012d0)
+11-28 17:42:03.415: D/LeakCanary(20321): |   static count = 4634
+11-28 17:42:03.415: D/LeakCanary(20321): |   static MAX_PRIORITY = 10
+11-28 17:42:03.415: D/LeakCanary(20321): |   static $staticOverhead = byte[48]@1877252689 (0x6fe49a51)
+11-28 17:42:03.415: D/LeakCanary(20321): |   static NORM_PRIORITY = 5
+11-28 17:42:03.415: D/LeakCanary(20321): |   static MIN_PRIORITY = 1
+11-28 17:42:03.415: D/LeakCanary(20321): |   contextClassLoader = dalvik.system.PathClassLoader@851455872 (0x32c02f80)
+11-28 17:42:03.415: D/LeakCanary(20321): |   daemon = false
+11-28 17:42:03.415: D/LeakCanary(20321): |   group = java.lang.ThreadGroup@1875386744 (0x6fc82178)
+11-28 17:42:03.415: D/LeakCanary(20321): |   hasBeenStarted = true
+11-28 17:42:03.415: D/LeakCanary(20321): |   id = 4633
+11-28 17:42:03.415: D/LeakCanary(20321): |   inheritableValues = null
+11-28 17:42:03.415: D/LeakCanary(20321): |   interruptActions = java.util.ArrayList@852297792 (0x32cd0840)
+11-28 17:42:03.415: D/LeakCanary(20321): |   localValues = null
+11-28 17:42:03.415: D/LeakCanary(20321): |   lock = java.lang.Object@851448160 (0x32c01160)
+11-28 17:42:03.415: D/LeakCanary(20321): |   name = java.lang.String@852147984 (0x32cabf10)
+11-28 17:42:03.415: D/LeakCanary(20321): |   nativePeer = -1411293184
+11-28 17:42:03.415: D/LeakCanary(20321): |   parkBlocker = null
+11-28 17:42:03.415: D/LeakCanary(20321): |   parkState = 1
+11-28 17:42:03.415: D/LeakCanary(20321): |   priority = 5
+11-28 17:42:03.416: D/LeakCanary(20321): |   stackSize = 0
+11-28 17:42:03.416: D/LeakCanary(20321): |   target = java.util.concurrent.ThreadPoolExecutor$Worker@851444208 (0x32c001f0)
+11-28 17:42:03.416: D/LeakCanary(20321): |   uncaughtHandler = null
+11-28 17:42:03.416: D/LeakCanary(20321): |   shadow$_klass_ = java.lang.Thread
+11-28 17:42:03.416: D/LeakCanary(20321): |   shadow$_monitor_ = 0
+11-28 17:42:03.416: D/LeakCanary(20321): * Instance of com.example.leakcanary.MainActivity$2
+11-28 17:42:03.416: D/LeakCanary(20321): |   this$0 = com.example.leakcanary.MainActivity@852153312 (0x32cad3e0)
+11-28 17:42:03.416: D/LeakCanary(20321): |   mCancelled = java.util.concurrent.atomic.AtomicBoolean@852300800 (0x32cd1400)
+11-28 17:42:03.416: D/LeakCanary(20321): |   mFuture = android.os.AsyncTask$3@852296992 (0x32cd0520)
+11-28 17:42:03.416: D/LeakCanary(20321): |   mStatus = android.os.AsyncTask$Status@1875629944 (0x6fcbd778)
+11-28 17:42:03.416: D/LeakCanary(20321): |   mTaskInvoked = java.util.concurrent.atomic.AtomicBoolean@852300816 (0x32cd1410)
+11-28 17:42:03.416: D/LeakCanary(20321): |   mWorker = android.os.AsyncTask$2@852300784 (0x32cd13f0)
+11-28 17:42:03.416: D/LeakCanary(20321): |   shadow$_klass_ = com.example.leakcanary.MainActivity$2
+11-28 17:42:03.416: D/LeakCanary(20321): |   shadow$_monitor_ = 0
+11-28 17:42:03.416: D/LeakCanary(20321): * Instance of com.example.leakcanary.MainActivity
+11-28 17:42:03.416: D/LeakCanary(20321): |   mActionBar = null
+11-28 17:42:03.416: D/LeakCanary(20321): |   mActionModeTypeStarting = 0
+11-28 17:42:03.416: D/LeakCanary(20321): |   mActivityInfo = android.content.pm.ActivityInfo@851552896 (0x32c1aa80)
+11-28 17:42:03.416: D/LeakCanary(20321): |   mActivityTransitionState = android.app.ActivityTransitionState@852174656 (0x32cb2740)
+11-28 17:42:03.416: D/LeakCanary(20321): |   mApplication = com.example.leakcanary.ExampleApplication@852169280 (0x32cb1240)
+11-28 17:42:03.416: D/LeakCanary(20321): |   mCalled = true
+11-28 17:42:03.416: D/LeakCanary(20321): |   mChangeCanvasToTranslucent = false
+11-28 17:42:03.416: D/LeakCanary(20321): |   mChangingConfigurations = false
+11-28 17:42:03.416: D/LeakCanary(20321): |   mComponent = android.content.ComponentName@851451184 (0x32c01d30)
+11-28 17:42:03.416: D/LeakCanary(20321): |   mConfigChangeFlags = 0
+11-28 17:42:03.416: D/LeakCanary(20321): |   mCurrentConfig = android.content.res.Configuration@852117536 (0x32ca4820)
+11-28 17:42:03.416: D/LeakCanary(20321): |   mDecor = null
+11-28 17:42:03.416: D/LeakCanary(20321): |   mDefaultKeyMode = 0
+11-28 17:42:03.416: D/LeakCanary(20321): |   mDefaultKeySsb = null
+11-28 17:42:03.416: D/LeakCanary(20321): |   mDestroyed = true
+11-28 17:42:03.416: D/LeakCanary(20321): |   mDoReportFullyDrawn = false
+11-28 17:42:03.416: D/LeakCanary(20321): |   mEmbeddedID = null
+11-28 17:42:03.416: D/LeakCanary(20321): |   mEnableDefaultActionBarUp = false
+11-28 17:42:03.416: D/LeakCanary(20321): |   mEnterTransitionListener = android.app.SharedElementCallback$1@1875604688 (0x6fcb74d0)
+11-28 17:42:03.416: D/LeakCanary(20321): |   mExitTransitionListener = android.app.SharedElementCallback$1@1875604688 (0x6fcb74d0)
+11-28 17:42:03.416: D/LeakCanary(20321): |   mFinished = true
+11-28 17:42:03.416: D/LeakCanary(20321): |   mFragments = android.app.FragmentController@851451200 (0x32c01d40)
+11-28 17:42:03.416: D/LeakCanary(20321): |   mHandler = android.os.Handler@852214656 (0x32cbc380)
+11-28 17:42:03.416: D/LeakCanary(20321): |   mHasCurrentPermissionsRequest = false
+11-28 17:42:03.416: D/LeakCanary(20321): |   mIdent = 251075956
+11-28 17:42:03.416: D/LeakCanary(20321): |   mInstanceTracker = android.os.StrictMode$InstanceTracker@851451216 (0x32c01d50)
+11-28 17:42:03.416: D/LeakCanary(20321): |   mInstrumentation = android.app.Instrumentation@852148800 (0x32cac240)
+11-28 17:42:03.416: D/LeakCanary(20321): |   mIntent = android.content.Intent@852174720 (0x32cb2780)
+11-28 17:42:03.416: D/LeakCanary(20321): |   mLastNonConfigurationInstances = null
+11-28 17:42:03.416: D/LeakCanary(20321): |   mMainThread = android.app.ActivityThread@851456256 (0x32c03100)
+11-28 17:42:03.417: D/LeakCanary(20321): |   mManagedCursors = java.util.ArrayList@852214688 (0x32cbc3a0)
+11-28 17:42:03.417: D/LeakCanary(20321): |   mManagedDialogs = null
+11-28 17:42:03.417: D/LeakCanary(20321): |   mMenuInflater = null
+11-28 17:42:03.417: D/LeakCanary(20321): |   mParent = null
+11-28 17:42:03.417: D/LeakCanary(20321): |   mReferrer = null
+11-28 17:42:03.417: D/LeakCanary(20321): |   mResultCode = 0
+11-28 17:42:03.417: D/LeakCanary(20321): |   mResultData = null
+11-28 17:42:03.417: D/LeakCanary(20321): |   mResumed = false
+11-28 17:42:03.417: D/LeakCanary(20321): |   mSearchEvent = null
+11-28 17:42:03.417: D/LeakCanary(20321): |   mSearchManager = null
+11-28 17:42:03.417: D/LeakCanary(20321): |   mStartedActivity = false
+11-28 17:42:03.417: D/LeakCanary(20321): |   mStopped = true
+11-28 17:42:03.417: D/LeakCanary(20321): |   mTemporaryPause = false
+11-28 17:42:03.417: D/LeakCanary(20321): |   mTitle = java.lang.String@852173696 (0x32cb2380)
+11-28 17:42:03.417: D/LeakCanary(20321): |   mTitleColor = 0
+11-28 17:42:03.417: D/LeakCanary(20321): |   mTitleReady = true
+11-28 17:42:03.417: D/LeakCanary(20321): |   mToken = android.os.BinderProxy@852214720 (0x32cbc3c0)
+11-28 17:42:03.417: D/LeakCanary(20321): |   mTranslucentCallback = null
+11-28 17:42:03.417: D/LeakCanary(20321): |   mUiThread = java.lang.Thread@1945093056 (0x73efc3c0)
+11-28 17:42:03.417: D/LeakCanary(20321): |   mVisibleBehind = false
+11-28 17:42:03.417: D/LeakCanary(20321): |   mVisibleFromClient = true
+11-28 17:42:03.417: D/LeakCanary(20321): |   mVisibleFromServer = true
+11-28 17:42:03.417: D/LeakCanary(20321): |   mVoiceInteractor = null
+11-28 17:42:03.417: D/LeakCanary(20321): |   mWindow = com.android.internal.policy.MiuiPhoneWindow@852218240 (0x32cbd180)
+11-28 17:42:03.417: D/LeakCanary(20321): |   mWindowAdded = true
+11-28 17:42:03.417: D/LeakCanary(20321): |   mWindowManager = android.view.WindowManagerImpl@852214752 (0x32cbc3e0)
+11-28 17:42:03.418: D/LeakCanary(20321): |   mInflater = com.android.internal.policy.PhoneLayoutInflater@852146304 (0x32cab880)
+11-28 17:42:03.418: D/LeakCanary(20321): |   mOverrideConfiguration = null
+11-28 17:42:03.418: D/LeakCanary(20321): |   mResources = android.content.res.MiuiResources@851552640 (0x32c1a980)
+11-28 17:42:03.418: D/LeakCanary(20321): |   mTheme = android.content.res.Resources$Theme@852214784 (0x32cbc400)
+11-28 17:42:03.418: D/LeakCanary(20321): |   mThemeResource = 16973829
+11-28 17:42:03.418: D/LeakCanary(20321): |   mBase = android.app.ContextImpl@851553024 (0x32c1ab00)
+11-28 17:42:03.418: D/LeakCanary(20321): |   shadow$_klass_ = com.example.leakcanary.MainActivity
+11-28 17:42:03.418: D/LeakCanary(20321): |   shadow$_monitor_ = -1937917215
+11-28 17:42:03.418: D/LeakCanary(20321): * Excluded Refs:
+11-28 17:42:03.418: D/LeakCanary(20321): | Field: android.view.inputmethod.InputMethodManager.mNextServedView
+11-28 17:42:03.418: D/LeakCanary(20321): | Field: android.view.inputmethod.InputMethodManager.mServedView
+11-28 17:42:03.418: D/LeakCanary(20321): | Field: android.view.inputmethod.InputMethodManager.mServedInputConnection
+11-28 17:42:03.418: D/LeakCanary(20321): | Field: android.view.inputmethod.InputMethodManager.mCurRootView
+11-28 17:42:03.418: D/LeakCanary(20321): | Field: android.os.UserManager.mContext
+11-28 17:42:03.418: D/LeakCanary(20321): | Field: android.net.ConnectivityManager.sInstance
+11-28 17:42:03.418: D/LeakCanary(20321): | Field: android.view.Choreographer$FrameDisplayEventReceiver.mMessageQueue (always)
+11-28 17:42:03.418: D/LeakCanary(20321): | Thread:FinalizerWatchdogDaemon (always)
+11-28 17:42:03.418: D/LeakCanary(20321): | Thread:main (always)
+11-28 17:42:03.418: D/LeakCanary(20321): | Thread:LeakCanary-Heap-Dump (always)
+11-28 17:42:03.418: D/LeakCanary(20321): | Class:java.lang.ref.WeakReference (always)
+11-28 17:42:03.418: D/LeakCanary(20321): | Class:java.lang.ref.SoftReference (always)
+11-28 17:42:03.418: D/LeakCanary(20321): | Class:java.lang.ref.PhantomReference (always)
+11-28 17:42:03.418: D/LeakCanary(20321): | Class:java.lang.ref.Finalizer (always)
+11-28 17:42:03.418: D/LeakCanary(20321): | Class:java.lang.ref.FinalizerReference (always)
